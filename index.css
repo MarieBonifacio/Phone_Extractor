@@ -1,0 +1,116 @@
+@font-face{
+    font-family: "Alien-Encounters-Italic";
+    src: url('Alien-Encounters-Italic.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    min-height: 100vh; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(55, 55, 55, 0.19) 0%, rgba(55, 55, 55, 0.19) 25%,rgba(109, 109, 109, 0.19) 25%, rgba(109, 109, 109, 0.19) 50%,rgba(164, 164, 164, 0.19) 50%, rgba(164, 164, 164, 0.19) 75%,rgba(218, 218, 218, 0.19) 75%, rgba(218, 218, 218, 0.19) 100%),linear-gradient(90deg, rgba(24, 24, 24, 0.23) 0%, rgba(24, 24, 24, 0.23) 20%,rgba(65, 65, 65, 0.23) 20%, rgba(65, 65, 65, 0.23) 40%,rgba(107, 107, 107, 0.23) 40%, rgba(107, 107, 107, 0.23) 60%,rgba(148, 148, 148, 0.23) 60%, rgba(148, 148, 148, 0.23) 80%,rgba(189, 189, 189, 0.23) 80%, rgba(189, 189, 189, 0.23) 100%),linear-gradient(90deg, rgb(221, 89, 11),rgb(227, 94, 34),rgb(232, 99, 58),rgb(238, 104, 81),rgb(243, 108, 104),rgb(249, 113, 128),rgb(254, 118, 151));
+}
+
+h1{
+    font-family: "Alien-Encounters-Italic";
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+
+#cadre{
+    border-radius: 20px;
+    min-height: 30vh; 
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgba(90, 37, 16, 0.589);
+    box-shadow: 0px 10px 35px -1px rgba(0,0,0,0.52);
+    padding: 15px;
+}
+
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#error{
+    width: 50vw;
+    text-align: center;
+    font-size: 2em;
+    border-radius : 15px; 
+    padding: 6px;
+    color: red;
+    opacity: 0.8;
+}
+
+
+#url{
+    height: 40px;
+    width: 50vw;
+    text-align: center;
+    font-size: 2em;
+    border-radius : 15px; 
+    padding: 6px;
+    border-bottom: none;
+    box-shadow:2px 6px 10px 3px rgba(144, 144, 144, 0.322) inset;
+    background-color:rgb(251, 251, 251);
+    transition: 1s;
+    border:none;
+}
+
+#url:focus{
+    background-color:rgba(226, 136, 136, 0.938);
+}
+
+::placeholder{
+    opacity: 1;
+    transition: opacity .5s;
+}
+:focus::placeholder{
+    opacity: 0;
+}
+
+.myButton {
+	box-shadow: 0 9px #7a2510a8;
+	background-color:#a7543b;
+	border-radius:13px;
+	border:1px solid #ab3a18;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:18px 41px;
+	text-decoration:none;
+    text-shadow:0px 0px 0px #663927;
+    font-size: 1em;
+    font-weight: bolder;
+    transition: 1s;
+}
+.myButton:hover {
+	background-color:#e78152;
+}
+.myButton:active {
+	position:relative;
+    top:1px;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
